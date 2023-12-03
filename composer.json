@@ -1,0 +1,9 @@
+{
+    "name": "egerstudio/backupeasy-plugin",
+    "type": "october-plugin",
+    "description": "A simple database and file backup solution for OctoberCMS",
+    "require": {
+        "composer/installers": "~1.0",
+        "spatie/laravel-backup": "^8.2"
+    }
+}

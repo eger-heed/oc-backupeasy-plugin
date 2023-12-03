@@ -1,0 +1,31 @@
+# plugins/vendorname/pluginname/models/backupsettings/fields.yaml
+
+fields:
+  backup_frequency:
+    label: 'Backup Frequency'
+    type: 'dropdown'
+    options:
+      hourly: 'Hourly'
+      daily: 'Daily'
+      weekly: 'Weekly'
+
+  backup_time:
+    label: 'Backup Time'
+    type: 'text'
+    comment: 'Time of day to run the backup (HH:MM format)'
+
+  include_files:
+    label: Include Files in Backup
+    type: checkbox
+
+  include_database:
+    label: Include Database in Backup
+    type: checkbox
+
+  retention_period:
+    label: Retention Period (in days)
+    type: number
+    default: 30
+    span: left
+
+  # Add more fields as per your requirements
